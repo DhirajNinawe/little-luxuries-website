@@ -383,7 +383,7 @@ export default function App() {
         title: 'Botanical Fragrance Infused with Real Petals & Gold',
         subtitle: 'Sculpted Lotus, Damask Rose Tins & Scalloped Urli Bowls',
         badge: '100% Organic Soy Wax',
-        discount: 'Free Delivery Across India',
+        discount: 'Handcrafted in India',
         image: '/assets/aistudio/WhatsApp_Image_2026-10-28_at_9.10.39_PM_1_aeb38bea.jpeg',
         ctaText: 'Explore Floral Tins',
         categoryTarget: 'floral',
@@ -543,7 +543,6 @@ export default function App() {
     msg += `━━━━━━━━━━━━━━━━━━━━━\n`;
     msg += `💰 *Subtotal:* ₹${cartSubtotal}\n`;
     msg += `🎉 *Festive Savings (50% OFF):* ₹${cartTotalSavings}\n`;
-    msg += `🚚 *Delivery:* FREE\n`;
     msg += `⭐ *Total Payable:* ₹${cartSubtotal}\n`;
     msg += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
 
@@ -590,7 +589,7 @@ export default function App() {
         <Sparkles className="w-3.5 h-3.5 text-[#FCE7B3] animate-pulse" />
         <span>
           <strong className="font-semibold text-[#FCE7B3]">FESTIVE EXTRAVAGANZA:</strong>{' '}
-          Flat 50% OFF Applied Storewide · FREE Express Delivery Across India on All Orders!
+          Flat 50% OFF Applied Storewide
         </span>
         <span className="hidden sm:inline text-rose-200">·</span>
         <span className="hidden sm:inline font-mono tracking-wider text-[#FCE7B3]">Code: LUXE50</span>
@@ -831,7 +830,7 @@ export default function App() {
                         <div className="flex items-center gap-6 text-xs text-[#C8B0B8] border-t border-white/10 pt-4">
                           <div className="flex items-center gap-1.5">
                             <Truck className="w-3.5 h-3.5 text-[#F5CF96]" />
-                            <span>Free All-India Delivery</span>
+                            <span>Pan-India Delivery</span>
                           </div>
                           <div className="flex items-center gap-1.5">
                             <Leaf className="w-3.5 h-3.5 text-emerald-400" />
@@ -913,8 +912,8 @@ export default function App() {
                 <Truck className="w-5 h-5 text-[#902A46]" />
               </div>
               <div>
-                <p className="text-xs font-bold text-[#3B1F2B]">FREE Pan-India Delivery</p>
-                <p className="text-[11px] text-[#7A6068]">No minimum order required</p>
+                <p className="text-xs font-bold text-[#3B1F2B]">Pan-India Delivery</p>
+                <p className="text-[11px] text-[#7A6068]">Delivery details confirmed at checkout</p>
               </div>
             </div>
 
@@ -962,7 +961,7 @@ export default function App() {
             </h2>
             <p className="text-sm text-[#6C535C] leading-relaxed">
               Every creation is individually sculpted and poured using organic wax and therapeutic oils.
-              Enjoy our limited-edition 50% festival discount and free home delivery.
+              Enjoy our limited-edition 50% festival discount.
             </p>
 
             {/* Category Filter Pills (Functional Buttons) */}
@@ -1000,10 +999,6 @@ export default function App() {
                 </span>
               )}
             </p>
-            <div className="flex items-center gap-1.5 text-emerald-800 font-medium bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
-              <Truck className="w-3 h-3 text-emerald-700" />
-              <span>All Items Qualify for FREE Delivery</span>
-            </div>
           </div>
 
           {/* Clean Amazon/Flipkart Style Product Card Grid */}
@@ -1217,69 +1212,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* 7. CUSTOMER TESTIMONIALS */}
-        <section className="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-10">
-            <span className="text-xs font-semibold uppercase tracking-widest text-[#B87A42]">Loved by 1,200+ Homes</span>
-            <h2 className="font-display text-3xl font-bold text-[#3B1F2B] mt-2">Glowing Customer Reviews</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-2xl border border-[#F0D5C3]/80 shadow-xs flex flex-col justify-between">
-              <div>
-                <div className="flex items-center gap-1 text-amber-500 mb-3">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  ))}
-                </div>
-                <p className="text-sm text-[#5B434B] italic leading-relaxed mb-4">
-                  &quot;The Laddu candles looked so realistic that my guests thought they were actual motichoor sweets! The
-                  scent of saffron and cardamom filled my living room during Diwali. Free shipping was super quick too.&quot;
-                </p>
-              </div>
-              <div className="border-t border-[#F5E6DC] pt-3 text-xs">
-                <p className="font-bold text-[#3B1F2B]">Pooja Deshmukh</p>
-                <p className="text-[#8C7079]">Verified Purchase · Pune</p>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl border border-[#F0D5C3]/80 shadow-xs flex flex-col justify-between">
-              <div>
-                <div className="flex items-center gap-1 text-amber-500 mb-3">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  ))}
-                </div>
-                <p className="text-sm text-[#5B434B] italic leading-relaxed mb-4">
-                  &quot;The Rose Tin candle is pure elegance! The golden tin with tiny sculpted roses and real pearls feels like
-                  a luxury palace heirloom. Ordering on WhatsApp with Saundarya was extremely smooth.&quot;
-                </p>
-              </div>
-              <div className="border-t border-[#F5E6DC] pt-3 text-xs">
-                <p className="font-bold text-[#3B1F2B]">Ananya Sen</p>
-                <p className="text-[#8C7079]">Verified Purchase · Mumbai</p>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl border border-[#F0D5C3]/80 shadow-xs flex flex-col justify-between">
-              <div>
-                <div className="flex items-center gap-1 text-amber-500 mb-3">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  ))}
-                </div>
-                <p className="text-sm text-[#5B434B] italic leading-relaxed mb-4">
-                  &quot;I ordered the Royal Hamper Basket for my sister. The packaging with net pom-poms, Ferrero Rocher, and the
-                  Vanilla Bloom jar made her tear up with joy. The 50% discount made it unbeatable value!&quot;
-                </p>
-              </div>
-              <div className="border-t border-[#F5E6DC] pt-3 text-xs">
-                <p className="font-bold text-[#3B1F2B]">Rohit Verma</p>
-                <p className="text-[#8C7079]">Verified Purchase · Nagpur</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       {/* 8. PRODUCT DETAIL POPUP MODAL (Strict Requirement) */}
@@ -1677,12 +1609,6 @@ export default function App() {
                     <span>Festive Discount (50% OFF):</span>
                     <span className="font-mono">- ₹{cartTotalSavings}</span>
                   </div>
-                  <div className="flex justify-between text-emerald-700 font-semibold">
-                    <span className="flex items-center gap-1">
-                      <Truck className="w-3.5 h-3.5 text-emerald-600" /> Free Pan-India Delivery:
-                    </span>
-                    <span>FREE</span>
-                  </div>
                   <div className="border-t border-[#F5E6DC] pt-2 flex justify-between text-base font-bold text-[#3B1F2B]">
                     <span>Total Amount Payable:</span>
                     <span className="font-mono text-xl text-[#902A46]">₹{cartSubtotal}</span>
@@ -1803,7 +1729,7 @@ export default function App() {
 
             <div className="bg-[#FFF8FA] p-4 rounded-2xl border border-[#FAD2DC] text-xs text-left mb-6 space-y-1.5">
               <p>
-                <strong>Delivery Type:</strong> Free Express Insured Shipping
+                <strong>Delivery Type:</strong> To be confirmed
               </p>
               <p>
                 <strong>Recipient Name:</strong> {customerName || 'Valued Patron'}
@@ -1988,7 +1914,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Truck className="w-4 h-4 text-[#E6B87D] shrink-0 mt-0.5" />
-                  <span>Free Express Delivery Across India</span>
+                  <span>Pan-India Delivery</span>
                 </li>
               </ul>
             </div>
