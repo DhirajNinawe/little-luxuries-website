@@ -1,0 +1,8 @@
+{
+  "name": "Little Luxuries | Handcrafted Luxury Scented Candles & Diyas",
+  "description": "Artisanal handcrafted luxury candles, festive terracotta diyas, and bespoke gift hampers with 100% natural soy wax and pure botanical fragrance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
